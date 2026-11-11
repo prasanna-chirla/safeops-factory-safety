@@ -42,7 +42,7 @@ The quick demo uses 2 plants, 12 machines, 40 alarm definitions, 2,000 total ala
 
 Defaults: 4 plants, 60 machines, 200 alarm definitions, 50,000 total alarm events over 30 days (49,999 valid baseline + 1 replay duplicate), seed `20261022`. Five labelled data-quality exception scenarios are injected after valid baseline records; the replay duplicates one of the generated flood events and is included in the 50,000 total alarm rows. Boundary cases at exactly the SLA and one minute beyond it are also included. Existing database and export files at the chosen paths are regenerated.
 
-Run `.\.venv\Scripts\python.exe repro_check.py --demo` to regenerate twice and compare all table counts and CSV SHA-256 checksums. Omit `--demo` to check the full scale using `.\.venv\Scripts\python.exe repro_check.py`.
+Run `.\.venv\Scripts\python.exe repro_check.py --demo` to regenerate twice and compare all table counts plus SHA-256 checksums for the source CSV exports and `ground_truth.json`. Omit `--demo` to check the full scale using `.\.venv\Scripts\python.exe repro_check.py`.
 
 Scale and seed are configurable:
 
@@ -66,7 +66,7 @@ These thresholds are transparent demo rules, not validated plant safety standard
 
 ## Reproducibility
 
-The fixed seed controls random choices. Generate to a fresh output path twice with the same arguments and compare `run_summary.json`, CSV row counts, and hashes recorded in `source_manifest.json`. The manifest generation timestamp naturally differs; compare its per-file row counts and SHA-256 values. Note that database file bytes can vary by SQLite build; exported CSV checksums are the reproducibility measure.
+The fixed seed controls random choices. Generate twice with the same arguments and compare table counts and the source export hashes recorded in `source_manifest.json`. The manifest generation timestamp naturally differs; compare its per-file row counts and SHA-256 values. The manifest hashes every source CSV and the separate ground-truth file. Note that database file bytes can vary by SQLite build; these exported-file checksums are the reproducibility measure.
 
 ## Data model
 

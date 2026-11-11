@@ -28,7 +28,7 @@ def main():
     (out/'findings.json').write_text(json.dumps(findings,indent=2),encoding='utf-8')
     evaluation=evaluate(result['ground_truth'],issues,findings)
     (out/'evaluation_summary.json').write_text(json.dumps(evaluation,indent=2),encoding='utf-8')
-    report={'seed':a.seed,'database':str(db),'counts':summary(db)['counts'],'findings':len(findings),'validation_issues':len(issues),'export_files':len(files),'anomaly_f1':evaluation['anomaly_detection']['f1'],'cluster_recall':evaluation['nuisance_cluster_coverage']['recall']}
+    report={'seed':a.seed,'database':str(db),'counts':summary(db)['counts'],'findings':len(findings),'validation_issues':len(issues),'source_files_hashed':len(files),'anomaly_f1':evaluation['anomaly_detection']['f1'],'cluster_recall':evaluation['nuisance_cluster_coverage']['recall']}
     (out/'run_summary.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     print(json.dumps(report,indent=2))
 if __name__=='__main__': main()

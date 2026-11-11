@@ -183,18 +183,64 @@ def generate(db_path: Path, plants_n: int=4, machines_n: int=60, definitions_n: 
 
 def validate(db_path: Path) -> list[dict[str,str]]:
     c=sqlite3.connect(db_path); c.row_factory=sqlite3.Row; issues=[]
-    for table,key in [('Plant','plant_id'),('Machine','machine_id'),('SafetyZone','safety_zone_id'),('Interlock','interlock_id'),('AlarmDefinition','alarm_definition_id'),('AlarmEvent','alarm_event_id'),('OperatorShift','shift_id'),('Acknowledgement','acknowledgement_id'),('Incident','incident_id'),('CorrectiveAction','action_id')]:
-        duplicates=c.execute(f'SELECT {key},COUNT(*) n FROM {table} GROUP BY {key} HAVING n>1').fetchall()
-        for row in duplicates: issues.append({'severity':'error','issue_type':'DUPLICATE_PRIMARY_KEY','record_id':row[0],'detail':f'{table} key appears {row[1]} times'})
+    primary_keys=[
+      ('Plant','plant_id','plant_id','plant_id'),
+      ('Machine','machine_id','machine_id','machine_id'),
+      ('SafetyZone','safety_zone_id','safety_zone_id','safety_zone_id'),
+      ('MachineSafetyZone','machine_id,safety_zone_id,effective_from',"machine_id || '|' || safety_zone_id || '|' || effective_from",'machine_id,safety_zone_id,effective_from'),
+      ('Interlock','interlock_id','interlock_id','interlock_id'),
+      ('MachineInterlock','machine_id,interlock_id,effective_from',"machine_id || '|' || interlock_id || '|' || effective_from",'machine_id,interlock_id,effective_from'),
+      ('AlarmDefinition','alarm_definition_id','alarm_definition_id','alarm_definition_id'),
+      ('OperatorShift','shift_id','shift_id','shift_id'),
+      ('MachineStateEvent','state_event_id','state_event_id','state_event_id'),
+      ('AlarmEvent','alarm_event_id','alarm_event_id','alarm_event_id'),
+      ('Acknowledgement','acknowledgement_id','acknowledgement_id','acknowledgement_id'),
+      ('Incident','incident_id','incident_id','incident_id'),
+      ('CorrectiveAction','action_id','action_id','action_id'),
+    ]
+    for table,group_by,record_id,columns in primary_keys:
+        duplicates=c.execute(f'SELECT {record_id} AS record_id,COUNT(*) n FROM {table} GROUP BY {group_by} HAVING COUNT(*)>1').fetchall()
+        for row in duplicates: issues.append({'severity':'error','issue_type':'DUPLICATE_PRIMARY_KEY','record_id':str(row['record_id']),'detail':f'{table} key appears {row["n"]} times'})
     for row in c.execute('PRAGMA foreign_key_check'):
         issues.append({'severity':'error','issue_type':'FOREIGN_KEY','record_id':str(row[1]),'detail':f'Invalid reference in {row[0]}'})
+
+    # Validate every timestamp column as an ISO-8601 UTC value before relying on string ordering.
+    timestamp_fields=[
+      ('Machine','machine_id','machine_id','commissioned_at'),
+      ('MachineSafetyZone','machine_id || \'|\' || safety_zone_id || \'|\' || effective_from','machine_id,safety_zone_id,effective_from','effective_from'),
+      ('MachineSafetyZone','machine_id || \'|\' || safety_zone_id || \'|\' || effective_from','machine_id,safety_zone_id,effective_from','effective_to'),
+      ('MachineInterlock','machine_id || \'|\' || interlock_id || \'|\' || effective_from','machine_id,interlock_id,effective_from','effective_from'),
+      ('MachineInterlock','machine_id || \'|\' || interlock_id || \'|\' || effective_from','machine_id,interlock_id,effective_from','effective_to'),
+      ('OperatorShift','shift_id','shift_id','starts_at'),('OperatorShift','shift_id','shift_id','ends_at'),
+      ('MachineStateEvent','state_event_id','state_event_id','occurred_at'),
+      ('AlarmEvent','alarm_event_id','alarm_event_id','occurred_at'),
+      ('Acknowledgement','acknowledgement_id','acknowledgement_id','acknowledged_at'),
+      ('Incident','incident_id','incident_id','created_at'),
+      ('CorrectiveAction','action_id','action_id','opened_at'),
+      ('CorrectiveAction','action_id','action_id','closed_at'),
+      ('CorrectiveAction','action_id','action_id','verified_at'),
+    ]
+    for table,record_expr,_,column in timestamp_fields:
+        for row in c.execute(f'SELECT {record_expr} AS record_id,{column} AS value FROM {table} WHERE {column} IS NOT NULL'):
+            try:
+                parsed=datetime.fromisoformat(str(row['value']).replace('Z','+00:00'))
+                if parsed.tzinfo is None or parsed.utcoffset()!=timedelta(0): raise ValueError('timestamp is not UTC')
+            except (TypeError,ValueError):
+                issues.append({'severity':'error','issue_type':'INVALID_TIMESTAMP','record_id':str(row['record_id']),'detail':f'{table}.{column} must be an ISO-8601 UTC timestamp.'})
+
     relational_checks=[
       ("SELECT e.alarm_event_id FROM AlarmEvent e JOIN AlarmDefinition d USING(alarm_definition_id) WHERE e.machine_id<>d.machine_id",'ALARM_MACHINE_MISMATCH','Alarm definition belongs to a different machine.'),
       ("SELECT e.alarm_event_id FROM AlarmEvent e JOIN MachineStateEvent s USING(state_event_id) WHERE e.machine_id<>s.machine_id OR s.occurred_at>e.occurred_at",'STATE_LINK_OR_ORDER','Alarm state link is for another machine or occurs after the alarm.'),
       ("SELECT e.alarm_event_id FROM AlarmEvent e JOIN OperatorShift o USING(shift_id) JOIN Machine m USING(machine_id) WHERE o.plant_id<>m.plant_id OR e.occurred_at<o.starts_at OR e.occurred_at>=o.ends_at",'SHIFT_LINK_OR_ORDER','Event shift is for another plant or outside the shift window.'),
+      ("SELECT i.incident_id FROM Incident i JOIN Machine m USING(machine_id) WHERE i.plant_id<>m.plant_id",'INCIDENT_PLANT_MISMATCH','Incident plant does not match its machine plant.'),
       ("SELECT i.incident_id FROM Incident i JOIN AlarmEvent e USING(alarm_event_id) WHERE i.machine_id<>e.machine_id",'INCIDENT_MACHINE_MISMATCH','Incident and triggering alarm refer to different machines.'),
+      ("SELECT i.incident_id FROM Incident i JOIN AlarmEvent e USING(alarm_event_id) WHERE i.created_at<e.occurred_at",'INCIDENT_BEFORE_TRIGGER','Incident was created before its triggering alarm.'),
+      ("SELECT i.incident_id FROM Incident i JOIN AlarmEvent e USING(alarm_event_id) JOIN AlarmDefinition d USING(alarm_definition_id) WHERE i.severity<>d.severity",'INCIDENT_SEVERITY_MISMATCH','Incident severity does not match its triggering alarm definition.'),
       ("SELECT z.machine_id FROM MachineSafetyZone z JOIN Machine m USING(machine_id) JOIN SafetyZone s USING(safety_zone_id) WHERE m.plant_id<>s.plant_id",'ZONE_PLANT_MISMATCH','Machine and safety zone belong to different plants.'),
       ("SELECT x.machine_id FROM MachineInterlock x JOIN Machine m USING(machine_id) JOIN Interlock i USING(interlock_id) WHERE m.plant_id<>i.plant_id",'INTERLOCK_PLANT_MISMATCH','Machine and interlock belong to different plants.'),
+      ("SELECT machine_id || '|' || safety_zone_id || '|' || effective_from FROM MachineSafetyZone WHERE effective_to IS NOT NULL AND effective_to<=effective_from",'ZONE_ASSIGNMENT_DATE_ORDER','Safety-zone assignment ends at or before it starts.'),
+      ("SELECT machine_id || '|' || interlock_id || '|' || effective_from FROM MachineInterlock WHERE effective_to IS NOT NULL AND effective_to<=effective_from",'INTERLOCK_ASSIGNMENT_DATE_ORDER','Interlock assignment ends at or before it starts.'),
+      ("SELECT a.shift_id || ' / ' || b.shift_id FROM OperatorShift a JOIN OperatorShift b ON a.plant_id=b.plant_id AND a.shift_id<b.shift_id AND a.starts_at<b.ends_at AND b.starts_at<a.ends_at",'OVERLAPPING_OPERATOR_SHIFTS','Two operator shifts overlap within the same plant.'),
     ]
     for sql,kind,msg in relational_checks:
         for r in c.execute(sql): issues.append({'severity':'error','issue_type':kind,'record_id':str(r[0]),'detail':msg})
@@ -214,11 +260,14 @@ def validate(db_path: Path) -> list[dict[str,str]]:
         issues.append({'severity':'error','issue_type':'INCIDENT_RESOLVED_WITHOUT_VERIFIED_ACTION','record_id':r['incident_id'],'detail':'Resolved incident has no closed, verified corrective action.'})
     missing_ack=c.execute("SELECT e.alarm_event_id FROM AlarmEvent e LEFT JOIN Acknowledgement a USING(alarm_event_id) WHERE a.alarm_event_id IS NULL").fetchall()
     for r in missing_ack: issues.append({'severity':'error','issue_type':'MISSING_ACKNOWLEDGEMENT','record_id':r[0],'detail':'Alarm event has no acknowledgement record.'})
-    # Timeline rules for incidents and actions.
-    for r in c.execute("SELECT a.action_id,a.opened_at,i.created_at,a.closed_at,a.verified_at FROM CorrectiveAction a JOIN Incident i USING(incident_id)"):
+    # Timeline and lifecycle rules for incidents and actions.
+    for r in c.execute("SELECT a.action_id,a.opened_at,i.created_at,a.closed_at,a.verified_at,a.status FROM CorrectiveAction a JOIN Incident i USING(incident_id)"):
         if r['opened_at']<r['created_at']: issues.append({'severity':'error','issue_type':'ACTION_BEFORE_INCIDENT','record_id':r['action_id'],'detail':'Action opened before its incident.'})
         if r['closed_at'] and r['closed_at']<r['opened_at']: issues.append({'severity':'error','issue_type':'ACTION_DATE_ORDER','record_id':r['action_id'],'detail':'Action closed before it opened.'})
+        if r['verified_at'] and not r['closed_at']: issues.append({'severity':'error','issue_type':'VERIFICATION_WITHOUT_CLOSURE','record_id':r['action_id'],'detail':'Action is verified without a closure timestamp.'})
         if r['verified_at'] and r['closed_at'] and r['verified_at']<r['closed_at']: issues.append({'severity':'error','issue_type':'VERIFICATION_DATE_ORDER','record_id':r['action_id'],'detail':'Verification precedes closure.'})
+        invalid_status=(r['status']=='closed' and (not r['closed_at'] or not r['verified_at'])) or (r['status']=='closed_unverified' and (not r['closed_at'] or r['verified_at'])) or (r['status'] in ('open','in_progress') and (r['closed_at'] or r['verified_at']))
+        if invalid_status: issues.append({'severity':'error','issue_type':'ACTION_STATUS_TIMESTAMP_MISMATCH','record_id':r['action_id'],'detail':'Action status does not match its close and verification timestamps.'})
     c.close(); return issues
 
 def analyze(db_path: Path) -> list[dict[str,Any]]:
@@ -227,17 +276,19 @@ def analyze(db_path: Path) -> list[dict[str,Any]]:
       FROM AlarmEvent e JOIN AlarmDefinition d USING(alarm_definition_id) GROUP BY e.machine_id,e.alarm_definition_id HAVING COUNT(DISTINCT e.source_event_key)>=3 ORDER BY severe DESC,n DESC LIMIT 100''').fetchall()
     for r in recurring:
         findings.append({'finding_type':'Repeated alarm','priority':'high' if r['severe'] else 'medium','machine_id':r['machine_id'],'alarm_definition_id':r['alarm_definition_id'],'count':r['n'],'first_seen':r['first_seen'],'last_seen':r['last_seen'],'summary':f"{r['n']} occurrences of {r['alarm_definition_id']} on {r['machine_id']} ({r['severe']} high/critical)."})
-    delays=c.execute('''SELECT e.machine_id,e.alarm_event_id,d.severity,e.occurred_at,k.acknowledged_at,d.ack_sla_minutes,
+    delays=c.execute('''SELECT e.machine_id,e.alarm_event_id,e.alarm_definition_id,d.severity,e.occurred_at,k.acknowledged_at,d.ack_sla_minutes,
       (julianday(k.acknowledged_at)-julianday(e.occurred_at))*1440 delay_min FROM AlarmEvent e JOIN AlarmDefinition d USING(alarm_definition_id) JOIN Acknowledgement k USING(alarm_event_id)
       WHERE delay_min>d.ack_sla_minutes+0.01 ORDER BY delay_min DESC''').fetchall()
-    for r in delays: findings.append({'finding_type':'Late acknowledgement','priority':'critical' if r['severity']=='critical' else 'high','machine_id':r['machine_id'],'alarm_event_id':r['alarm_event_id'],'count':1,'first_seen':r['occurred_at'],'last_seen':r['acknowledged_at'],'summary':f"{r['severity']} alarm acknowledged after {r['delay_min']:.0f} min (SLA {r['ack_sla_minutes']} min)."})
+    for r in delays: findings.append({'finding_type':'Late acknowledgement','priority':'critical' if r['severity']=='critical' else 'high','machine_id':r['machine_id'],'alarm_definition_id':r['alarm_definition_id'],'alarm_event_id':r['alarm_event_id'],'count':1,'first_seen':r['occurred_at'],'last_seen':r['acknowledged_at'],'summary':f"{r['severity']} alarm acknowledged after {r['delay_min']:.0f} min (SLA {r['ack_sla_minutes']} min)."})
     floods=c.execute('''SELECT machine_id,alarm_definition_id,COUNT(DISTINCT source_event_key) n,MIN(occurred_at) first_seen,MAX(occurred_at) last_seen FROM AlarmEvent GROUP BY machine_id,alarm_definition_id,strftime('%Y-%m-%dT%H',occurred_at) HAVING n>=8 ORDER BY n DESC LIMIT 100''').fetchall()
     for r in floods: findings.append({'finding_type':'Alarm flood / nuisance cluster','priority':'medium','machine_id':r['machine_id'],'alarm_definition_id':r['alarm_definition_id'],'count':r['n'],'first_seen':r['first_seen'],'last_seen':r['last_seen'],'summary':f"{r['n']} events for {r['alarm_definition_id']} in one hour; review nuisance potential."})
-    risks=c.execute('''SELECT i.incident_id,i.machine_id,i.severity,i.created_at,i.description,e.alarm_event_id,s.state,e.interlock_state,a.action_id,a.status,a.verified_at
-      FROM Incident i LEFT JOIN AlarmEvent e USING(alarm_event_id) LEFT JOIN MachineStateEvent s USING(state_event_id) LEFT JOIN CorrectiveAction a USING(incident_id)
+    risks=c.execute('''SELECT i.incident_id,i.machine_id,i.severity,i.created_at,i.description,e.alarm_event_id,e.alarm_definition_id,s.state,e.interlock_state,
+      (SELECT a.status FROM CorrectiveAction a WHERE a.incident_id=i.incident_id ORDER BY a.opened_at DESC,a.action_id DESC LIMIT 1) AS action_status,
+      (SELECT a.verified_at FROM CorrectiveAction a WHERE a.incident_id=i.incident_id ORDER BY a.opened_at DESC,a.action_id DESC LIMIT 1) AS verified_at
+      FROM Incident i LEFT JOIN AlarmEvent e USING(alarm_event_id) LEFT JOIN MachineStateEvent s USING(state_event_id)
       WHERE i.severity IN ('high','critical') ORDER BY i.created_at DESC LIMIT 100''').fetchall()
     for r in risks:
-        findings.append({'finding_type':'High-severity incident','priority':r['severity'],'machine_id':r['machine_id'],'incident_id':r['incident_id'],'alarm_event_id':r['alarm_event_id'],'count':1,'first_seen':r['created_at'],'last_seen':r['created_at'],'summary':f"{r['severity']} incident; machine state={r['state'] or 'unknown'}, interlock={r['interlock_state'] or 'unknown'}, action={r['status'] or 'missing'}, verified={'yes' if r['verified_at'] else 'no'}."})
+        findings.append({'finding_type':'High-severity incident','priority':r['severity'],'machine_id':r['machine_id'],'alarm_definition_id':r['alarm_definition_id'],'incident_id':r['incident_id'],'alarm_event_id':r['alarm_event_id'],'count':1,'first_seen':r['created_at'],'last_seen':r['created_at'],'summary':f"{r['severity']} incident; machine state={r['state'] or 'unknown'}, interlock={r['interlock_state'] or 'unknown'}, action={r['action_status'] or 'missing'}, verified={'yes' if r['verified_at'] else 'no'}."})
     c.close(); return findings
 
 
@@ -257,7 +308,6 @@ def evaluate(ground_truth: list[dict[str,Any]], issues: list[dict[str,str]], fin
             boundary[g['issue_type']]={'record_id':g['record_id'],'expected_detection':g['expected_detection'],'detected':any(x.get('alarm_event_id')==g['record_id'] and x.get('finding_type')=='Late acknowledgement' for x in findings)}
     cluster_cases=[g for g in ground_truth if g['issue_type']=='ALARM_FLOOD_NUISANCE_CLUSTER']
     cluster_detected=[g for g in cluster_cases if any(f.get('finding_type')=='Alarm flood / nuisance cluster' and f.get('machine_id')==g.get('machine_id') and f.get('alarm_definition_id')==g.get('alarm_definition_id') and str(f.get('first_seen',''))[:13]==g.get('window_hour') for f in findings)]
-    priority_rank={'critical':0,'high':1,'medium':2,'low':3}
     priority_findings=[f for f in findings if f.get('finding_type') in ('Late acknowledgement','High-severity incident')]
     priority_compliance=sum(f.get('priority') in ('critical','high') for f in priority_findings)/len(priority_findings) if priority_findings else 1.0
     return {'anomaly_detection':{'true_positives':tp,'false_positives':fp,'false_negatives':fn,'precision':round(precision,4),'recall':round(recall,4),'f1':round(f1,4),'expected_cases':len(expected),'detected_case_ids':[g['case_id'] for g in matched]},'nuisance_cluster_coverage':{'detected':len(cluster_detected),'expected':len(cluster_cases),'recall':round(len(cluster_detected)/len(cluster_cases),4) if cluster_cases else 1.0,'detected_case_ids':[g['case_id'] for g in cluster_detected]},'boundary_decisions':boundary,'finding_counts_by_type':dict(Counter(f['finding_type'] for f in findings)),'validation_counts_by_type':dict(Counter(i['issue_type'] for i in issues)),'severe_priority_compliance':round(priority_compliance,4),'limitations':'Exception precision/recall measures planted data-quality cases only; nuisance cluster recall measures planted bursts only. Neither estimates real-plant performance.'}

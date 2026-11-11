@@ -18,7 +18,7 @@
   },
   "findings": 10335,
   "validation_issues": 5,
-  "export_files": 14,
+  "source_files_hashed": 14,
   "anomaly_f1": 1.0,
   "cluster_recall": 1.0
 }
