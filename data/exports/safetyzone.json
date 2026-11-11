@@ -1,0 +1,386 @@
+[
+  {
+    "safety_zone_id": "SAFE-PLT-001-001",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 001",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-002",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 002",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-001",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 001",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-002",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 002",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-001",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 001",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-002",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 002",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-001",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 001",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-002",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 002",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-003",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 003",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-004",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 004",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-003",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 003",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-004",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 004",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-003",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 003",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-004",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 004",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-003",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 003",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-004",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 004",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-005",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 005",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-006",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 006",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-005",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 005",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-006",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 006",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-005",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 005",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-006",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 006",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-005",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 005",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-006",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 006",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-007",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 007",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-008",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 008",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-007",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 007",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-008",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 008",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-007",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 007",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-008",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 008",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-007",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 007",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-008",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 008",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-009",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 009",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-010",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 010",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-009",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 009",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-010",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 010",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-009",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 009",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-010",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 010",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-009",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 009",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-010",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 010",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-011",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 011",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-012",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 012",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-011",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 011",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-012",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 012",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-011",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 011",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-012",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 012",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-011",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 011",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-012",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 012",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-013",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 013",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-014",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 014",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-013",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 013",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-014",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 014",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-013",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 013",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-014",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 014",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-013",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 013",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-014",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 014",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-015",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 015",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-001-016",
+    "plant_id": "PLT-001",
+    "name": "Safety Zone 016",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-015",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 015",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-002-016",
+    "plant_id": "PLT-002",
+    "name": "Safety Zone 016",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-015",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 015",
+    "hazard_level": "medium"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-003-016",
+    "plant_id": "PLT-003",
+    "name": "Safety Zone 016",
+    "hazard_level": "high"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-015",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 015",
+    "hazard_level": "critical"
+  },
+  {
+    "safety_zone_id": "SAFE-PLT-004-016",
+    "plant_id": "PLT-004",
+    "name": "Safety Zone 016",
+    "hazard_level": "medium"
+  }
+]

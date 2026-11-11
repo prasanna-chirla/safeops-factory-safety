@@ -1,0 +1,71 @@
+{
+  "generated_at_utc": "2026-11-11T08:38:03.562681+00:00",
+  "provenance": "Fully synthetic, generated locally; no external datasets used.",
+  "files": {
+    "plant.csv": {
+      "rows": 4,
+      "sha256": "79f40375d990119cc0be00149eb21dc9e6529190ce42cba186686258d39f1cee"
+    },
+    "machine.csv": {
+      "rows": 60,
+      "sha256": "5cec6239bb918282c89cdc90c6a30bdd6e2c7d935db31522f320c2068ea9d42d"
+    },
+    "safetyzone.csv": {
+      "rows": 64,
+      "sha256": "b05863e2f9e1ef8ed71980c04938f61e4c471ad685ba48280969da95f05fa8de"
+    },
+    "machinesafetyzone.csv": {
+      "rows": 120,
+      "sha256": "5f7718780d08e283da68a88474957ace71985752bdbf470e01447c0a74c6f767"
+    },
+    "interlock.csv": {
+      "rows": 64,
+      "sha256": "e77f721f41f39fe36cc76b452f3d7343541754e968662862d06757a8f097b11f"
+    },
+    "machineinterlock.csv": {
+      "rows": 120,
+      "sha256": "fef469cc2fad90bf591a1d11ccd6cbf925398acf42469c9328b3249157caf63f"
+    },
+    "alarmdefinition.csv": {
+      "rows": 200,
+      "sha256": "11941ce1bb6b105cc7d2d0999b43d16675068470b2e569941c14b2b4ac468210"
+    },
+    "operatorshift.csv": {
+      "rows": 360,
+      "sha256": "b41b2202df8c670e0db5c16cc785dce7e1ce7a58376a107df08e25cea52f3301"
+    },
+    "machinestateevent.csv": {
+      "rows": 49999,
+      "sha256": "82c0f79e13366854f692a8f48a7d5b9bd9af4306192fa7319fc8e157bc73524c"
+    },
+    "alarmevent.csv": {
+      "rows": 50000,
+      "sha256": "8ca8aa324eabcf49b112af1a4d93a601b484c07123d717a9cb8b2204dc6f1d91"
+    },
+    "acknowledgement.csv": {
+      "rows": 50000,
+      "sha256": "13ffdcf325623d2952bee6ad5145cf4c0eef25be2ec22094b98dd4d53573f7e3"
+    },
+    "incident.csv": {
+      "rows": 2266,
+      "sha256": "565314b0ff97c2c97dc793ef312570e3fec89316bc6c27ff28f8cc6c09e47c37"
+    },
+    "correctiveaction.csv": {
+      "rows": 2266,
+      "sha256": "335abff68ccc8aa868662aab87a96ca903e9fe915db2a1abbf17c89aa183d64d"
+    },
+    "ground_truth.json": {
+      "rows": 9,
+      "sha256": "87e58779d724c5edb4b55095e4d72a36a20fd9e4544a5a3869e5a0da63808fc0"
+    }
+  },
+  "seed": 20261022,
+  "scale": {
+    "plants": 4,
+    "machines": 60,
+    "alarm_definitions": 200,
+    "baseline_alarm_events": 49999,
+    "total_alarm_events": 50000,
+    "days": 30
+  }
+}

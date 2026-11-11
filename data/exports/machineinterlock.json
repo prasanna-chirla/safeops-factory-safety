@@ -1,0 +1,722 @@
+[
+  {
+    "machine_id": "MCH-001",
+    "interlock_id": "INT-PLT-001-001",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-001",
+    "interlock_id": "INT-PLT-001-002",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-002",
+    "interlock_id": "INT-PLT-002-001",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-002",
+    "interlock_id": "INT-PLT-002-002",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-003",
+    "interlock_id": "INT-PLT-003-001",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-003",
+    "interlock_id": "INT-PLT-003-002",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-004",
+    "interlock_id": "INT-PLT-004-001",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-004",
+    "interlock_id": "INT-PLT-004-002",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-005",
+    "interlock_id": "INT-PLT-001-001",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-005",
+    "interlock_id": "INT-PLT-001-002",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-006",
+    "interlock_id": "INT-PLT-002-001",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-006",
+    "interlock_id": "INT-PLT-002-002",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-007",
+    "interlock_id": "INT-PLT-003-001",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-007",
+    "interlock_id": "INT-PLT-003-002",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-008",
+    "interlock_id": "INT-PLT-004-001",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-008",
+    "interlock_id": "INT-PLT-004-002",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-009",
+    "interlock_id": "INT-PLT-001-003",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-009",
+    "interlock_id": "INT-PLT-001-004",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-010",
+    "interlock_id": "INT-PLT-002-003",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-010",
+    "interlock_id": "INT-PLT-002-004",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-011",
+    "interlock_id": "INT-PLT-003-003",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-011",
+    "interlock_id": "INT-PLT-003-004",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-012",
+    "interlock_id": "INT-PLT-004-003",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-012",
+    "interlock_id": "INT-PLT-004-004",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-013",
+    "interlock_id": "INT-PLT-001-003",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-013",
+    "interlock_id": "INT-PLT-001-004",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-014",
+    "interlock_id": "INT-PLT-002-003",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-014",
+    "interlock_id": "INT-PLT-002-004",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-015",
+    "interlock_id": "INT-PLT-003-003",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-015",
+    "interlock_id": "INT-PLT-003-004",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-016",
+    "interlock_id": "INT-PLT-004-003",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-016",
+    "interlock_id": "INT-PLT-004-004",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-017",
+    "interlock_id": "INT-PLT-001-005",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-017",
+    "interlock_id": "INT-PLT-001-006",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-018",
+    "interlock_id": "INT-PLT-002-005",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-018",
+    "interlock_id": "INT-PLT-002-006",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-019",
+    "interlock_id": "INT-PLT-003-005",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-019",
+    "interlock_id": "INT-PLT-003-006",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-020",
+    "interlock_id": "INT-PLT-004-005",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-020",
+    "interlock_id": "INT-PLT-004-006",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-021",
+    "interlock_id": "INT-PLT-001-005",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-021",
+    "interlock_id": "INT-PLT-001-006",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-022",
+    "interlock_id": "INT-PLT-002-005",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-022",
+    "interlock_id": "INT-PLT-002-006",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-023",
+    "interlock_id": "INT-PLT-003-005",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-023",
+    "interlock_id": "INT-PLT-003-006",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-024",
+    "interlock_id": "INT-PLT-004-005",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-024",
+    "interlock_id": "INT-PLT-004-006",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-025",
+    "interlock_id": "INT-PLT-001-007",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-025",
+    "interlock_id": "INT-PLT-001-008",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-026",
+    "interlock_id": "INT-PLT-002-007",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-026",
+    "interlock_id": "INT-PLT-002-008",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-027",
+    "interlock_id": "INT-PLT-003-007",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-027",
+    "interlock_id": "INT-PLT-003-008",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-028",
+    "interlock_id": "INT-PLT-004-007",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-028",
+    "interlock_id": "INT-PLT-004-008",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-029",
+    "interlock_id": "INT-PLT-001-007",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-029",
+    "interlock_id": "INT-PLT-001-008",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-030",
+    "interlock_id": "INT-PLT-002-007",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-030",
+    "interlock_id": "INT-PLT-002-008",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-031",
+    "interlock_id": "INT-PLT-003-007",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-031",
+    "interlock_id": "INT-PLT-003-008",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-032",
+    "interlock_id": "INT-PLT-004-007",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-032",
+    "interlock_id": "INT-PLT-004-008",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-033",
+    "interlock_id": "INT-PLT-001-009",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-033",
+    "interlock_id": "INT-PLT-001-010",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-034",
+    "interlock_id": "INT-PLT-002-009",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-034",
+    "interlock_id": "INT-PLT-002-010",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-035",
+    "interlock_id": "INT-PLT-003-009",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-035",
+    "interlock_id": "INT-PLT-003-010",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-036",
+    "interlock_id": "INT-PLT-004-009",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-036",
+    "interlock_id": "INT-PLT-004-010",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-037",
+    "interlock_id": "INT-PLT-001-009",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-037",
+    "interlock_id": "INT-PLT-001-010",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-038",
+    "interlock_id": "INT-PLT-002-009",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-038",
+    "interlock_id": "INT-PLT-002-010",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-039",
+    "interlock_id": "INT-PLT-003-009",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-039",
+    "interlock_id": "INT-PLT-003-010",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-040",
+    "interlock_id": "INT-PLT-004-009",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-040",
+    "interlock_id": "INT-PLT-004-010",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-041",
+    "interlock_id": "INT-PLT-001-011",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-041",
+    "interlock_id": "INT-PLT-001-012",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-042",
+    "interlock_id": "INT-PLT-002-011",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-042",
+    "interlock_id": "INT-PLT-002-012",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-043",
+    "interlock_id": "INT-PLT-003-011",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-043",
+    "interlock_id": "INT-PLT-003-012",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-044",
+    "interlock_id": "INT-PLT-004-011",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-044",
+    "interlock_id": "INT-PLT-004-012",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-045",
+    "interlock_id": "INT-PLT-001-011",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-045",
+    "interlock_id": "INT-PLT-001-012",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-046",
+    "interlock_id": "INT-PLT-002-011",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-046",
+    "interlock_id": "INT-PLT-002-012",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-047",
+    "interlock_id": "INT-PLT-003-011",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-047",
+    "interlock_id": "INT-PLT-003-012",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-048",
+    "interlock_id": "INT-PLT-004-011",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-048",
+    "interlock_id": "INT-PLT-004-012",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-049",
+    "interlock_id": "INT-PLT-001-013",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-049",
+    "interlock_id": "INT-PLT-001-014",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-050",
+    "interlock_id": "INT-PLT-002-013",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-050",
+    "interlock_id": "INT-PLT-002-014",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-051",
+    "interlock_id": "INT-PLT-003-013",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-051",
+    "interlock_id": "INT-PLT-003-014",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-052",
+    "interlock_id": "INT-PLT-004-013",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-052",
+    "interlock_id": "INT-PLT-004-014",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-053",
+    "interlock_id": "INT-PLT-001-013",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-053",
+    "interlock_id": "INT-PLT-001-014",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-054",
+    "interlock_id": "INT-PLT-002-013",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-054",
+    "interlock_id": "INT-PLT-002-014",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-055",
+    "interlock_id": "INT-PLT-003-013",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-055",
+    "interlock_id": "INT-PLT-003-014",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-056",
+    "interlock_id": "INT-PLT-004-013",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-056",
+    "interlock_id": "INT-PLT-004-014",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-057",
+    "interlock_id": "INT-PLT-001-015",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-057",
+    "interlock_id": "INT-PLT-001-016",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-058",
+    "interlock_id": "INT-PLT-002-015",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-058",
+    "interlock_id": "INT-PLT-002-016",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-059",
+    "interlock_id": "INT-PLT-003-015",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-059",
+    "interlock_id": "INT-PLT-003-016",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-060",
+    "interlock_id": "INT-PLT-004-015",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  },
+  {
+    "machine_id": "MCH-060",
+    "interlock_id": "INT-PLT-004-016",
+    "effective_from": "2025-10-01T00:00:00Z",
+    "effective_to": null
+  }
+]

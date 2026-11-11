@@ -1,0 +1,24 @@
+{
+  "seed": 20261022,
+  "database": "C:\\CandidateWorkspace\\data\\safety.db",
+  "counts": {
+    "plant": 4,
+    "machine": 60,
+    "safetyzone": 64,
+    "machinesafetyzone": 120,
+    "interlock": 64,
+    "machineinterlock": 120,
+    "alarmdefinition": 200,
+    "operatorshift": 360,
+    "machinestateevent": 49999,
+    "alarmevent": 50000,
+    "acknowledgement": 50000,
+    "incident": 2266,
+    "correctiveaction": 2266
+  },
+  "findings": 10335,
+  "validation_issues": 5,
+  "export_files": 14,
+  "anomaly_f1": 1.0,
+  "cluster_recall": 1.0
+}

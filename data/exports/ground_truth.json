@@ -1,0 +1,71 @@
+[
+  {
+    "case_id": "GT-BND-001",
+    "record_id": "ALM-MCH-006-000001",
+    "issue_type": "ACK_AT_SLA_THRESHOLD",
+    "expected_detection": false,
+    "rule": "Exactly-at-SLA acknowledgement is on time."
+  },
+  {
+    "case_id": "GT-BND-002",
+    "record_id": "ALM-MCH-007-000001",
+    "issue_type": "ACK_JUST_OVER_SLA",
+    "expected_detection": true,
+    "rule": "Acknowledgement one minute beyond SLA must be flagged."
+  },
+  {
+    "case_id": "GT-FLOOD-001",
+    "record_id": "ALM-MCH-004-000085",
+    "issue_type": "ALARM_FLOOD_NUISANCE_CLUSTER",
+    "machine_id": "MCH-004",
+    "alarm_definition_id": "ALD-MCH-004-001",
+    "window_hour": "2026-10-04T00",
+    "expected_detection": true,
+    "rule": "12 same nuisance alarm events occur within 9 minutes."
+  },
+  {
+    "case_id": "GT-FLOOD-002",
+    "record_id": "ALM-MCH-004-000430",
+    "issue_type": "ALARM_FLOOD_NUISANCE_CLUSTER",
+    "machine_id": "MCH-004",
+    "alarm_definition_id": "ALD-MCH-004-001",
+    "window_hour": "2026-10-16T00",
+    "expected_detection": true,
+    "rule": "12 same nuisance alarm events occur within 9 minutes."
+  },
+  {
+    "case_id": "GT-001",
+    "record_id": "ALM-MCH-001-000001",
+    "issue_type": "ACK_BEFORE_ALARM",
+    "expected_detection": true,
+    "rule": "Acknowledgement timestamp precedes alarm timestamp."
+  },
+  {
+    "case_id": "GT-002",
+    "record_id": "ALM-MCH-002-000001",
+    "issue_type": "IMPOSSIBLE_INTERLOCK_STATE",
+    "expected_detection": true,
+    "rule": "Machine is running while the safety interlock is unsafe."
+  },
+  {
+    "case_id": "GT-003",
+    "record_id": "INC-2026-000003",
+    "issue_type": "INCIDENT_MISSING_TRIGGER_CONTEXT",
+    "expected_detection": true,
+    "rule": "Incident has no triggering alarm context."
+  },
+  {
+    "case_id": "GT-005",
+    "record_id": "ACT-INC-2026-000005-01",
+    "issue_type": "ACTION_CLOSED_WITHOUT_VERIFICATION",
+    "expected_detection": true,
+    "rule": "Closed corrective action has no verification timestamp."
+  },
+  {
+    "case_id": "GT-004",
+    "record_id": "ALM-MCH-004-000859",
+    "issue_type": "ALARM_FLOOD_REPLAY_DUPLICATE",
+    "expected_detection": true,
+    "rule": "Repeated source_event_key identifies replay duplicate."
+  }
+]

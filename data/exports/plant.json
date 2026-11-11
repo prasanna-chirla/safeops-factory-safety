@@ -1,0 +1,26 @@
+[
+  {
+    "plant_id": "PLT-001",
+    "name": "Plant 1",
+    "region": "North",
+    "lifecycle_state": "active"
+  },
+  {
+    "plant_id": "PLT-002",
+    "name": "Plant 2",
+    "region": "South",
+    "lifecycle_state": "active"
+  },
+  {
+    "plant_id": "PLT-003",
+    "name": "Plant 3",
+    "region": "East",
+    "lifecycle_state": "active"
+  },
+  {
+    "plant_id": "PLT-004",
+    "name": "Plant 4",
+    "region": "West",
+    "lifecycle_state": "active"
+  }
+]

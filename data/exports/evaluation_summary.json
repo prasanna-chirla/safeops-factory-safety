@@ -1,0 +1,54 @@
+{
+  "anomaly_detection": {
+    "true_positives": 5,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "expected_cases": 5,
+    "detected_case_ids": [
+      "GT-001",
+      "GT-002",
+      "GT-003",
+      "GT-005",
+      "GT-004"
+    ]
+  },
+  "nuisance_cluster_coverage": {
+    "detected": 2,
+    "expected": 2,
+    "recall": 1.0,
+    "detected_case_ids": [
+      "GT-FLOOD-001",
+      "GT-FLOOD-002"
+    ]
+  },
+  "boundary_decisions": {
+    "ACK_AT_SLA_THRESHOLD": {
+      "record_id": "ALM-MCH-006-000001",
+      "expected_detection": false,
+      "detected": false
+    },
+    "ACK_JUST_OVER_SLA": {
+      "record_id": "ALM-MCH-007-000001",
+      "expected_detection": true,
+      "detected": true
+    }
+  },
+  "finding_counts_by_type": {
+    "Repeated alarm": 100,
+    "Late acknowledgement": 10133,
+    "Alarm flood / nuisance cluster": 2,
+    "High-severity incident": 100
+  },
+  "validation_counts_by_type": {
+    "ACK_BEFORE_ALARM": 1,
+    "IMPOSSIBLE_INTERLOCK_STATE": 1,
+    "INCIDENT_MISSING_TRIGGER_CONTEXT": 1,
+    "ALARM_FLOOD_REPLAY_DUPLICATE": 1,
+    "ACTION_CLOSED_WITHOUT_VERIFICATION": 1
+  },
+  "severe_priority_compliance": 1.0,
+  "limitations": "Exception precision/recall measures planted data-quality cases only; nuisance cluster recall measures planted bursts only. Neither estimates real-plant performance."
+}

@@ -1,0 +1,42 @@
+{
+  "issue_count": 5,
+  "issues_by_type": {
+    "ACK_BEFORE_ALARM": 1,
+    "ACTION_CLOSED_WITHOUT_VERIFICATION": 1,
+    "ALARM_FLOOD_REPLAY_DUPLICATE": 1,
+    "IMPOSSIBLE_INTERLOCK_STATE": 1,
+    "INCIDENT_MISSING_TRIGGER_CONTEXT": 1
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "issue_type": "ACK_BEFORE_ALARM",
+      "record_id": "ALM-MCH-001-000001",
+      "detail": "Acknowledgement timestamp precedes its alarm."
+    },
+    {
+      "severity": "warning",
+      "issue_type": "IMPOSSIBLE_INTERLOCK_STATE",
+      "record_id": "ALM-MCH-002-000001",
+      "detail": "Running machine has an unsafe interlock state."
+    },
+    {
+      "severity": "warning",
+      "issue_type": "INCIDENT_MISSING_TRIGGER_CONTEXT",
+      "record_id": "INC-2026-000003",
+      "detail": "Incident has no triggering alarm context."
+    },
+    {
+      "severity": "warning",
+      "issue_type": "ALARM_FLOOD_REPLAY_DUPLICATE",
+      "record_id": "ALM-MCH-004-000859",
+      "detail": "Source event key refers to an already-seen alarm event."
+    },
+    {
+      "severity": "warning",
+      "issue_type": "ACTION_CLOSED_WITHOUT_VERIFICATION",
+      "record_id": "ACT-INC-2026-000005-01",
+      "detail": "Closed action has no verification timestamp."
+    }
+  ]
+}

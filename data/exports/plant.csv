@@ -1,0 +1,5 @@
+plant_id,name,region,lifecycle_state
+PLT-001,Plant 1,North,active
+PLT-002,Plant 2,South,active
+PLT-003,Plant 3,East,active
+PLT-004,Plant 4,West,active

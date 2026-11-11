@@ -1,0 +1,450 @@
+[
+  {
+    "interlock_id": "INT-PLT-001-001",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 001",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-002",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 002",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-001",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 001",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-002",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 002",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-001",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 001",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-002",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 002",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-001",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 001",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-002",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 002",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-003",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 003",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-004",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 004",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-003",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 003",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-004",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 004",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-003",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 003",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-004",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 004",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-003",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 003",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-004",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 004",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-005",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 005",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-006",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 006",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-005",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 005",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-006",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 006",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-005",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 005",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-006",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 006",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-005",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 005",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-006",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 006",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-007",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 007",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-008",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 008",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-007",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 007",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-008",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 008",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-007",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 007",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-008",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 008",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-007",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 007",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-008",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 008",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-009",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 009",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-010",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 010",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-009",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 009",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-010",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 010",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-009",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 009",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-010",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 010",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-009",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 009",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-010",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 010",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-011",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 011",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-012",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 012",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-011",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 011",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-012",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 012",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-011",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 011",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-012",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 012",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-011",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 011",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-012",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 012",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-013",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 013",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-014",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 014",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-013",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 013",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-014",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 014",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-013",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 013",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-014",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 014",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-013",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 013",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-014",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 014",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-015",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 015",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-001-016",
+    "plant_id": "PLT-001",
+    "name": "Guard interlock 016",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-015",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 015",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-002-016",
+    "plant_id": "PLT-002",
+    "name": "Guard interlock 016",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-015",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 015",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-003-016",
+    "plant_id": "PLT-003",
+    "name": "Guard interlock 016",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-015",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 015",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  },
+  {
+    "interlock_id": "INT-PLT-004-016",
+    "plant_id": "PLT-004",
+    "name": "Guard interlock 016",
+    "interlock_type": "guard_door",
+    "safe_state": "closed"
+  }
+]

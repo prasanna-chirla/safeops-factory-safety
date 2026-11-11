@@ -1,0 +1,482 @@
+[
+  {
+    "machine_id": "MCH-001",
+    "plant_id": "PLT-001",
+    "name": "Machine 001",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-002",
+    "plant_id": "PLT-002",
+    "name": "Machine 002",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-003",
+    "plant_id": "PLT-003",
+    "name": "Machine 003",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-004",
+    "plant_id": "PLT-004",
+    "name": "Machine 004",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-005",
+    "plant_id": "PLT-001",
+    "name": "Machine 005",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-006",
+    "plant_id": "PLT-002",
+    "name": "Machine 006",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-007",
+    "plant_id": "PLT-003",
+    "name": "Machine 007",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-008",
+    "plant_id": "PLT-004",
+    "name": "Machine 008",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-009",
+    "plant_id": "PLT-001",
+    "name": "Machine 009",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-010",
+    "plant_id": "PLT-002",
+    "name": "Machine 010",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-011",
+    "plant_id": "PLT-003",
+    "name": "Machine 011",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-012",
+    "plant_id": "PLT-004",
+    "name": "Machine 012",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-013",
+    "plant_id": "PLT-001",
+    "name": "Machine 013",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-014",
+    "plant_id": "PLT-002",
+    "name": "Machine 014",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-015",
+    "plant_id": "PLT-003",
+    "name": "Machine 015",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-016",
+    "plant_id": "PLT-004",
+    "name": "Machine 016",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-017",
+    "plant_id": "PLT-001",
+    "name": "Machine 017",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-018",
+    "plant_id": "PLT-002",
+    "name": "Machine 018",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-019",
+    "plant_id": "PLT-003",
+    "name": "Machine 019",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-020",
+    "plant_id": "PLT-004",
+    "name": "Machine 020",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-021",
+    "plant_id": "PLT-001",
+    "name": "Machine 021",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-022",
+    "plant_id": "PLT-002",
+    "name": "Machine 022",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-023",
+    "plant_id": "PLT-003",
+    "name": "Machine 023",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-024",
+    "plant_id": "PLT-004",
+    "name": "Machine 024",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-025",
+    "plant_id": "PLT-001",
+    "name": "Machine 025",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-026",
+    "plant_id": "PLT-002",
+    "name": "Machine 026",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-027",
+    "plant_id": "PLT-003",
+    "name": "Machine 027",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-028",
+    "plant_id": "PLT-004",
+    "name": "Machine 028",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-029",
+    "plant_id": "PLT-001",
+    "name": "Machine 029",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-030",
+    "plant_id": "PLT-002",
+    "name": "Machine 030",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-031",
+    "plant_id": "PLT-003",
+    "name": "Machine 031",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-032",
+    "plant_id": "PLT-004",
+    "name": "Machine 032",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-033",
+    "plant_id": "PLT-001",
+    "name": "Machine 033",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-034",
+    "plant_id": "PLT-002",
+    "name": "Machine 034",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-035",
+    "plant_id": "PLT-003",
+    "name": "Machine 035",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-036",
+    "plant_id": "PLT-004",
+    "name": "Machine 036",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-037",
+    "plant_id": "PLT-001",
+    "name": "Machine 037",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-038",
+    "plant_id": "PLT-002",
+    "name": "Machine 038",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-039",
+    "plant_id": "PLT-003",
+    "name": "Machine 039",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-040",
+    "plant_id": "PLT-004",
+    "name": "Machine 040",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-041",
+    "plant_id": "PLT-001",
+    "name": "Machine 041",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-042",
+    "plant_id": "PLT-002",
+    "name": "Machine 042",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-043",
+    "plant_id": "PLT-003",
+    "name": "Machine 043",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-044",
+    "plant_id": "PLT-004",
+    "name": "Machine 044",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-045",
+    "plant_id": "PLT-001",
+    "name": "Machine 045",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-046",
+    "plant_id": "PLT-002",
+    "name": "Machine 046",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-047",
+    "plant_id": "PLT-003",
+    "name": "Machine 047",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-048",
+    "plant_id": "PLT-004",
+    "name": "Machine 048",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-049",
+    "plant_id": "PLT-001",
+    "name": "Machine 049",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-050",
+    "plant_id": "PLT-002",
+    "name": "Machine 050",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-051",
+    "plant_id": "PLT-003",
+    "name": "Machine 051",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-052",
+    "plant_id": "PLT-004",
+    "name": "Machine 052",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-053",
+    "plant_id": "PLT-001",
+    "name": "Machine 053",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-054",
+    "plant_id": "PLT-002",
+    "name": "Machine 054",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-055",
+    "plant_id": "PLT-003",
+    "name": "Machine 055",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-056",
+    "plant_id": "PLT-004",
+    "name": "Machine 056",
+    "machine_type": "press",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-057",
+    "plant_id": "PLT-001",
+    "name": "Machine 057",
+    "machine_type": "conveyor",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-058",
+    "plant_id": "PLT-002",
+    "name": "Machine 058",
+    "machine_type": "robot",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-059",
+    "plant_id": "PLT-003",
+    "name": "Machine 059",
+    "machine_type": "cutter",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  },
+  {
+    "machine_id": "MCH-060",
+    "plant_id": "PLT-004",
+    "name": "Machine 060",
+    "machine_type": "filler",
+    "commissioned_at": "2025-10-01T00:00:00Z",
+    "lifecycle_state": "active"
+  }
+]

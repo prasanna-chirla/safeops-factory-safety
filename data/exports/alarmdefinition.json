@@ -1,0 +1,1602 @@
+[
+  {
+    "alarm_definition_id": "ALD-MCH-001-001",
+    "machine_id": "MCH-001",
+    "code": "AL-0001",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-002-001",
+    "machine_id": "MCH-002",
+    "code": "AL-0002",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-003-001",
+    "machine_id": "MCH-003",
+    "code": "AL-0003",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-004-001",
+    "machine_id": "MCH-004",
+    "code": "AL-0004",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-005-001",
+    "machine_id": "MCH-005",
+    "code": "AL-0005",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-006-001",
+    "machine_id": "MCH-006",
+    "code": "AL-0006",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-007-001",
+    "machine_id": "MCH-007",
+    "code": "AL-0007",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-008-001",
+    "machine_id": "MCH-008",
+    "code": "AL-0008",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-009-001",
+    "machine_id": "MCH-009",
+    "code": "AL-0009",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-010-001",
+    "machine_id": "MCH-010",
+    "code": "AL-0010",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-011-001",
+    "machine_id": "MCH-011",
+    "code": "AL-0011",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-012-001",
+    "machine_id": "MCH-012",
+    "code": "AL-0012",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-013-001",
+    "machine_id": "MCH-013",
+    "code": "AL-0013",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-014-001",
+    "machine_id": "MCH-014",
+    "code": "AL-0014",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-015-001",
+    "machine_id": "MCH-015",
+    "code": "AL-0015",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-016-001",
+    "machine_id": "MCH-016",
+    "code": "AL-0016",
+    "severity": "critical",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-017-001",
+    "machine_id": "MCH-017",
+    "code": "AL-0017",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-018-001",
+    "machine_id": "MCH-018",
+    "code": "AL-0018",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-019-001",
+    "machine_id": "MCH-019",
+    "code": "AL-0019",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-020-001",
+    "machine_id": "MCH-020",
+    "code": "AL-0020",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-021-001",
+    "machine_id": "MCH-021",
+    "code": "AL-0021",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-022-001",
+    "machine_id": "MCH-022",
+    "code": "AL-0022",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-023-001",
+    "machine_id": "MCH-023",
+    "code": "AL-0023",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-024-001",
+    "machine_id": "MCH-024",
+    "code": "AL-0024",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-025-001",
+    "machine_id": "MCH-025",
+    "code": "AL-0025",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-026-001",
+    "machine_id": "MCH-026",
+    "code": "AL-0026",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-027-001",
+    "machine_id": "MCH-027",
+    "code": "AL-0027",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-028-001",
+    "machine_id": "MCH-028",
+    "code": "AL-0028",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-029-001",
+    "machine_id": "MCH-029",
+    "code": "AL-0029",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-030-001",
+    "machine_id": "MCH-030",
+    "code": "AL-0030",
+    "severity": "critical",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-031-001",
+    "machine_id": "MCH-031",
+    "code": "AL-0031",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-032-001",
+    "machine_id": "MCH-032",
+    "code": "AL-0032",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-033-001",
+    "machine_id": "MCH-033",
+    "code": "AL-0033",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-034-001",
+    "machine_id": "MCH-034",
+    "code": "AL-0034",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-035-001",
+    "machine_id": "MCH-035",
+    "code": "AL-0035",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-036-001",
+    "machine_id": "MCH-036",
+    "code": "AL-0036",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-037-001",
+    "machine_id": "MCH-037",
+    "code": "AL-0037",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-038-001",
+    "machine_id": "MCH-038",
+    "code": "AL-0038",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-039-001",
+    "machine_id": "MCH-039",
+    "code": "AL-0039",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-040-001",
+    "machine_id": "MCH-040",
+    "code": "AL-0040",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-041-001",
+    "machine_id": "MCH-041",
+    "code": "AL-0041",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-042-001",
+    "machine_id": "MCH-042",
+    "code": "AL-0042",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-043-001",
+    "machine_id": "MCH-043",
+    "code": "AL-0043",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-044-001",
+    "machine_id": "MCH-044",
+    "code": "AL-0044",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-045-001",
+    "machine_id": "MCH-045",
+    "code": "AL-0045",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-046-001",
+    "machine_id": "MCH-046",
+    "code": "AL-0046",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-047-001",
+    "machine_id": "MCH-047",
+    "code": "AL-0047",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-048-001",
+    "machine_id": "MCH-048",
+    "code": "AL-0048",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-049-001",
+    "machine_id": "MCH-049",
+    "code": "AL-0049",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-050-001",
+    "machine_id": "MCH-050",
+    "code": "AL-0050",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-051-001",
+    "machine_id": "MCH-051",
+    "code": "AL-0051",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-052-001",
+    "machine_id": "MCH-052",
+    "code": "AL-0052",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-053-001",
+    "machine_id": "MCH-053",
+    "code": "AL-0053",
+    "severity": "critical",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-054-001",
+    "machine_id": "MCH-054",
+    "code": "AL-0054",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-055-001",
+    "machine_id": "MCH-055",
+    "code": "AL-0055",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-056-001",
+    "machine_id": "MCH-056",
+    "code": "AL-0056",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-057-001",
+    "machine_id": "MCH-057",
+    "code": "AL-0057",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-058-001",
+    "machine_id": "MCH-058",
+    "code": "AL-0058",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-059-001",
+    "machine_id": "MCH-059",
+    "code": "AL-0059",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-060-001",
+    "machine_id": "MCH-060",
+    "code": "AL-0060",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-001-002",
+    "machine_id": "MCH-001",
+    "code": "AL-0061",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-002-002",
+    "machine_id": "MCH-002",
+    "code": "AL-0062",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-003-002",
+    "machine_id": "MCH-003",
+    "code": "AL-0063",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-004-002",
+    "machine_id": "MCH-004",
+    "code": "AL-0064",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-005-002",
+    "machine_id": "MCH-005",
+    "code": "AL-0065",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-006-002",
+    "machine_id": "MCH-006",
+    "code": "AL-0066",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-007-002",
+    "machine_id": "MCH-007",
+    "code": "AL-0067",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-008-002",
+    "machine_id": "MCH-008",
+    "code": "AL-0068",
+    "severity": "critical",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-009-002",
+    "machine_id": "MCH-009",
+    "code": "AL-0069",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-010-002",
+    "machine_id": "MCH-010",
+    "code": "AL-0070",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-011-002",
+    "machine_id": "MCH-011",
+    "code": "AL-0071",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-012-002",
+    "machine_id": "MCH-012",
+    "code": "AL-0072",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-013-002",
+    "machine_id": "MCH-013",
+    "code": "AL-0073",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-014-002",
+    "machine_id": "MCH-014",
+    "code": "AL-0074",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-015-002",
+    "machine_id": "MCH-015",
+    "code": "AL-0075",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-016-002",
+    "machine_id": "MCH-016",
+    "code": "AL-0076",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-017-002",
+    "machine_id": "MCH-017",
+    "code": "AL-0077",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-018-002",
+    "machine_id": "MCH-018",
+    "code": "AL-0078",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-019-002",
+    "machine_id": "MCH-019",
+    "code": "AL-0079",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-020-002",
+    "machine_id": "MCH-020",
+    "code": "AL-0080",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-021-002",
+    "machine_id": "MCH-021",
+    "code": "AL-0081",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-022-002",
+    "machine_id": "MCH-022",
+    "code": "AL-0082",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-023-002",
+    "machine_id": "MCH-023",
+    "code": "AL-0083",
+    "severity": "critical",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-024-002",
+    "machine_id": "MCH-024",
+    "code": "AL-0084",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-025-002",
+    "machine_id": "MCH-025",
+    "code": "AL-0085",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-026-002",
+    "machine_id": "MCH-026",
+    "code": "AL-0086",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-027-002",
+    "machine_id": "MCH-027",
+    "code": "AL-0087",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-028-002",
+    "machine_id": "MCH-028",
+    "code": "AL-0088",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-029-002",
+    "machine_id": "MCH-029",
+    "code": "AL-0089",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-030-002",
+    "machine_id": "MCH-030",
+    "code": "AL-0090",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-031-002",
+    "machine_id": "MCH-031",
+    "code": "AL-0091",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-032-002",
+    "machine_id": "MCH-032",
+    "code": "AL-0092",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-033-002",
+    "machine_id": "MCH-033",
+    "code": "AL-0093",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-034-002",
+    "machine_id": "MCH-034",
+    "code": "AL-0094",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-035-002",
+    "machine_id": "MCH-035",
+    "code": "AL-0095",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-036-002",
+    "machine_id": "MCH-036",
+    "code": "AL-0096",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-037-002",
+    "machine_id": "MCH-037",
+    "code": "AL-0097",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-038-002",
+    "machine_id": "MCH-038",
+    "code": "AL-0098",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-039-002",
+    "machine_id": "MCH-039",
+    "code": "AL-0099",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-040-002",
+    "machine_id": "MCH-040",
+    "code": "AL-0100",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-041-002",
+    "machine_id": "MCH-041",
+    "code": "AL-0101",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-042-002",
+    "machine_id": "MCH-042",
+    "code": "AL-0102",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-043-002",
+    "machine_id": "MCH-043",
+    "code": "AL-0103",
+    "severity": "critical",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-044-002",
+    "machine_id": "MCH-044",
+    "code": "AL-0104",
+    "severity": "critical",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-045-002",
+    "machine_id": "MCH-045",
+    "code": "AL-0105",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-046-002",
+    "machine_id": "MCH-046",
+    "code": "AL-0106",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-047-002",
+    "machine_id": "MCH-047",
+    "code": "AL-0107",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-048-002",
+    "machine_id": "MCH-048",
+    "code": "AL-0108",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-049-002",
+    "machine_id": "MCH-049",
+    "code": "AL-0109",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-050-002",
+    "machine_id": "MCH-050",
+    "code": "AL-0110",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-051-002",
+    "machine_id": "MCH-051",
+    "code": "AL-0111",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-052-002",
+    "machine_id": "MCH-052",
+    "code": "AL-0112",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-053-002",
+    "machine_id": "MCH-053",
+    "code": "AL-0113",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-054-002",
+    "machine_id": "MCH-054",
+    "code": "AL-0114",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-055-002",
+    "machine_id": "MCH-055",
+    "code": "AL-0115",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-056-002",
+    "machine_id": "MCH-056",
+    "code": "AL-0116",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-057-002",
+    "machine_id": "MCH-057",
+    "code": "AL-0117",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-058-002",
+    "machine_id": "MCH-058",
+    "code": "AL-0118",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-059-002",
+    "machine_id": "MCH-059",
+    "code": "AL-0119",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-060-002",
+    "machine_id": "MCH-060",
+    "code": "AL-0120",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-001-003",
+    "machine_id": "MCH-001",
+    "code": "AL-0121",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-002-003",
+    "machine_id": "MCH-002",
+    "code": "AL-0122",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-003-003",
+    "machine_id": "MCH-003",
+    "code": "AL-0123",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-004-003",
+    "machine_id": "MCH-004",
+    "code": "AL-0124",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-005-003",
+    "machine_id": "MCH-005",
+    "code": "AL-0125",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-006-003",
+    "machine_id": "MCH-006",
+    "code": "AL-0126",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-007-003",
+    "machine_id": "MCH-007",
+    "code": "AL-0127",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-008-003",
+    "machine_id": "MCH-008",
+    "code": "AL-0128",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-009-003",
+    "machine_id": "MCH-009",
+    "code": "AL-0129",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-010-003",
+    "machine_id": "MCH-010",
+    "code": "AL-0130",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-011-003",
+    "machine_id": "MCH-011",
+    "code": "AL-0131",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-012-003",
+    "machine_id": "MCH-012",
+    "code": "AL-0132",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-013-003",
+    "machine_id": "MCH-013",
+    "code": "AL-0133",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-014-003",
+    "machine_id": "MCH-014",
+    "code": "AL-0134",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-015-003",
+    "machine_id": "MCH-015",
+    "code": "AL-0135",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-016-003",
+    "machine_id": "MCH-016",
+    "code": "AL-0136",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-017-003",
+    "machine_id": "MCH-017",
+    "code": "AL-0137",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-018-003",
+    "machine_id": "MCH-018",
+    "code": "AL-0138",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-019-003",
+    "machine_id": "MCH-019",
+    "code": "AL-0139",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-020-003",
+    "machine_id": "MCH-020",
+    "code": "AL-0140",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-021-003",
+    "machine_id": "MCH-021",
+    "code": "AL-0141",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-022-003",
+    "machine_id": "MCH-022",
+    "code": "AL-0142",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-023-003",
+    "machine_id": "MCH-023",
+    "code": "AL-0143",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-024-003",
+    "machine_id": "MCH-024",
+    "code": "AL-0144",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-025-003",
+    "machine_id": "MCH-025",
+    "code": "AL-0145",
+    "severity": "critical",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-026-003",
+    "machine_id": "MCH-026",
+    "code": "AL-0146",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-027-003",
+    "machine_id": "MCH-027",
+    "code": "AL-0147",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-028-003",
+    "machine_id": "MCH-028",
+    "code": "AL-0148",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-029-003",
+    "machine_id": "MCH-029",
+    "code": "AL-0149",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-030-003",
+    "machine_id": "MCH-030",
+    "code": "AL-0150",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-031-003",
+    "machine_id": "MCH-031",
+    "code": "AL-0151",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-032-003",
+    "machine_id": "MCH-032",
+    "code": "AL-0152",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-033-003",
+    "machine_id": "MCH-033",
+    "code": "AL-0153",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-034-003",
+    "machine_id": "MCH-034",
+    "code": "AL-0154",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-035-003",
+    "machine_id": "MCH-035",
+    "code": "AL-0155",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-036-003",
+    "machine_id": "MCH-036",
+    "code": "AL-0156",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-037-003",
+    "machine_id": "MCH-037",
+    "code": "AL-0157",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-038-003",
+    "machine_id": "MCH-038",
+    "code": "AL-0158",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-039-003",
+    "machine_id": "MCH-039",
+    "code": "AL-0159",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-040-003",
+    "machine_id": "MCH-040",
+    "code": "AL-0160",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-041-003",
+    "machine_id": "MCH-041",
+    "code": "AL-0161",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-042-003",
+    "machine_id": "MCH-042",
+    "code": "AL-0162",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-043-003",
+    "machine_id": "MCH-043",
+    "code": "AL-0163",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-044-003",
+    "machine_id": "MCH-044",
+    "code": "AL-0164",
+    "severity": "critical",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-045-003",
+    "machine_id": "MCH-045",
+    "code": "AL-0165",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-046-003",
+    "machine_id": "MCH-046",
+    "code": "AL-0166",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-047-003",
+    "machine_id": "MCH-047",
+    "code": "AL-0167",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-048-003",
+    "machine_id": "MCH-048",
+    "code": "AL-0168",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-049-003",
+    "machine_id": "MCH-049",
+    "code": "AL-0169",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-050-003",
+    "machine_id": "MCH-050",
+    "code": "AL-0170",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-051-003",
+    "machine_id": "MCH-051",
+    "code": "AL-0171",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-052-003",
+    "machine_id": "MCH-052",
+    "code": "AL-0172",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-053-003",
+    "machine_id": "MCH-053",
+    "code": "AL-0173",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-054-003",
+    "machine_id": "MCH-054",
+    "code": "AL-0174",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-055-003",
+    "machine_id": "MCH-055",
+    "code": "AL-0175",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-056-003",
+    "machine_id": "MCH-056",
+    "code": "AL-0176",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-057-003",
+    "machine_id": "MCH-057",
+    "code": "AL-0177",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-058-003",
+    "machine_id": "MCH-058",
+    "code": "AL-0178",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-059-003",
+    "machine_id": "MCH-059",
+    "code": "AL-0179",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-060-003",
+    "machine_id": "MCH-060",
+    "code": "AL-0180",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-001-004",
+    "machine_id": "MCH-001",
+    "code": "AL-0181",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-002-004",
+    "machine_id": "MCH-002",
+    "code": "AL-0182",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-003-004",
+    "machine_id": "MCH-003",
+    "code": "AL-0183",
+    "severity": "critical",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-004-004",
+    "machine_id": "MCH-004",
+    "code": "AL-0184",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-005-004",
+    "machine_id": "MCH-005",
+    "code": "AL-0185",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-006-004",
+    "machine_id": "MCH-006",
+    "code": "AL-0186",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-007-004",
+    "machine_id": "MCH-007",
+    "code": "AL-0187",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-008-004",
+    "machine_id": "MCH-008",
+    "code": "AL-0188",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-009-004",
+    "machine_id": "MCH-009",
+    "code": "AL-0189",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-010-004",
+    "machine_id": "MCH-010",
+    "code": "AL-0190",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-011-004",
+    "machine_id": "MCH-011",
+    "code": "AL-0191",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-012-004",
+    "machine_id": "MCH-012",
+    "code": "AL-0192",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-013-004",
+    "machine_id": "MCH-013",
+    "code": "AL-0193",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-014-004",
+    "machine_id": "MCH-014",
+    "code": "AL-0194",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-015-004",
+    "machine_id": "MCH-015",
+    "code": "AL-0195",
+    "severity": "high",
+    "ack_sla_minutes": 15,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-016-004",
+    "machine_id": "MCH-016",
+    "code": "AL-0196",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-017-004",
+    "machine_id": "MCH-017",
+    "code": "AL-0197",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-018-004",
+    "machine_id": "MCH-018",
+    "code": "AL-0198",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-019-004",
+    "machine_id": "MCH-019",
+    "code": "AL-0199",
+    "severity": "low",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 0
+  },
+  {
+    "alarm_definition_id": "ALD-MCH-020-004",
+    "machine_id": "MCH-020",
+    "code": "AL-0200",
+    "severity": "medium",
+    "ack_sla_minutes": 60,
+    "nuisance_candidate": 1
+  }
+]
